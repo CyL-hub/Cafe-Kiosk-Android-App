@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="donut_types_array">
+    <item>Chocolate Cake Donuts</item>
+    <item>Vanilla Cake Donuts</item>
+    <item>Strawberry Cake Donuts</item>
+    <item>Chamomile Yeast Donuts</item>
+    <item>Earl Grey Yeast Donuts</item>
+    <item>Oolong Yeast Donuts</item>
+    <item>Acai Donut Holes</item>
+    <item>Apple Donut Holes</item>
+    <item>Apricot Donut Holes</item>
+
+    </string-array>
+</resources>

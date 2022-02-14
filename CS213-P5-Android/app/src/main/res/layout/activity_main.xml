@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="casual"
+        android:text="@string/ru_cafe"
+        android:textColor="@color/coffee_700"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/donutBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/donutBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="170dp"
+        android:contentDescription="@string/opendonutview"
+        android:cropToPadding="false"
+        android:onClick="openDonut"
+        android:scaleType="fitCenter"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/donut" />
+
+    <ImageButton
+        android:id="@+id/coffeeBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="170dp"
+        android:contentDescription="@string/opencoffeeview"
+        android:onClick="openCoffee"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toEndOf="@+id/donutBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/coffee" />
+
+    <ImageButton
+        android:id="@+id/myOrderBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="170dp"
+        android:contentDescription="@string/openmyorderview"
+        android:onClick="openOrder"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/donutBtn"
+        app:srcCompat="@drawable/your_order" />
+
+    <ImageButton
+        android:id="@+id/storeOrderBtn"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="170dp"
+        android:contentDescription="@string/openstoreorderview"
+        android:onClick="openStoreOrder"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/myOrderBtn"
+        app:layout_constraintTop_toBottomOf="@+id/coffeeBtn"
+        app:srcCompat="@drawable/store_order" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

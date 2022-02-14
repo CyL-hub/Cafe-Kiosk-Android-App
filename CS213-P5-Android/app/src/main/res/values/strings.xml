@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">CS213P5</string>
+    <string name="ru_cafe">RU Cafe</string>
+    <string name="donut_title">Order Donuts</string>
+    <string name="coffee_title">Order Coffee</string>
+    <string name="order_title">Current Order</string>
+    <string name="store_order_title">Store Order</string>
+    <string name="opendonutview">OpenDonutView</string>
+    <string name="opencoffeeview">OpenCoffeeView</string>
+    <string name="openstoreorderview">OpenStoreOrderView</string>
+    <string name="openmyorderview">OpenMyOrderView</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove Selected</string>
+    <string name="add_to_order">Add to Order</string>
+    <string name="cream">Cream</string>
+    <string name="milk">Milk</string>
+    <string name="syrup">Syrup</string>
+    <string name="caramel">Caramel</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="sub_total">Sub-total:</string>
+    <string name="sales_tax">Sales tax:</string>
+    <string name="place_order">Place Order</string>
+    <string name="cancel_order">Cancel Order</string>
+    <string name="total">Total:</string>
+    <string name="_0_00">$0.00</string>
+
+    <string name="chocolate_select">Chocolate Cake Donuts</string>
+    <string name="vanilla_select">Vanilla Cake Donuts</string>
+    <string name="strawberry_select">Strawberry Cake Donuts</string>
+    <string name="chamomile_select">Chamomile Yeast Donuts</string>
+    <string name="earl_grey_select">Earl Grey Yeast Donuts</string>
+    <string name="oolong_select">Oolong Yeast Donuts</string>
+    <string name="acai_select">Acai Donut Holes</string>
+    <string name="apple_select">Apple Donut Holes</string>
+    <string name="apricot_select">Apricot Donut Holes</string>
+    <string name="cake">Cake</string>
+    <string name="yeast">Yeast</string>
+    <string name="donut_hole">Donut Hole</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="vanilla">Vanilla</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="chamomile">Chamomile</string>
+    <string name="earl_grey">Earl Grey</string>
+    <string name="oolong">Oolong</string>
+    <string name="acai">Acai</string>
+    <string name="apple">Apple</string>
+    <string name="apricot">Apricot</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="order_added">Added to order.</string>
+    <string name="cancel_empty_order">There are no orders to cancel.</string>
+    <string name="cancel_order_title">Cancel Order.</string>
+    <string name="cancel_order_msg">Are you sure you want to cancel this order?</string>
+    <string name="order_canceled">Order canceled successfully.</string>
+    <string name="order_not_canceled">Order not canceled.</string>
+
+    <string name="no_selection">There is no item selected.</string>
+    <string name="add_empty_donuts">There are no donuts to add to order.</string>
+    <string name="remove_item_title">Remove item.</string>
+    <string name="remove_item_msg">Are you sure you want to remove this item?</string>
+    <string name="item_removed">Item removed successfully.</string>
+    <string name="item_not_removed">Item not removed.</string>
+    <string name="add_donuts_title">Add donuts.</string>
+    <string name="add_donuts_msg">Are you sure you want to add donut(s) to order?</string>
+    <string name="donuts_not_added">Donut(s) not added to order.</string>
+
+    <string name="add_coffee_title">Add Coffee.</string>
+    <string name="add_coffee_msg">Are you sure you want to add coffee(s) to order?</string>
+    <string name="coffee_not_added">Coffee(s) not added to order.</string>
+
+    <string name="place_order_title">Place an Order.</string>
+    <string name="place_order_msg">Are you sure you want to place this order?</string>
+    <string name="place_empty_order">Cannot place an empty order.</string>
+    <string name="order_placed">Order placed successfully.</string>
+    <string name="order_not_placed">Order not placed.</string>
+    <string name="cancel">Cancel</string>
+    <string name="Short">short</string>
+
+</resources>
